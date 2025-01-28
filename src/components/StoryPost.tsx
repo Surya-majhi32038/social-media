@@ -3,7 +3,7 @@ import React from 'react'
 
 const StoryPost = () => {
   return (
-    <div className='w-full bg-white p-4 m-3 rounded-xl shadow-md overflow-scroll scrollbar-hide'>
+    <div className=' bg-white p-5 mb-3 rounded-xl shadow-md overflow-scroll scrollbar-hide'>
         <div className='flex gap-8 w-max'>
     
             {/* story section  */}
