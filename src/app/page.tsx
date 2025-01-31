@@ -9,13 +9,13 @@ import React from 'react'
   return (
     <div className='flex gap-6 pt-7'>
         {/* left part */}
-        <div className='hidden md:block w-[30%]'>
-            <LeftMenu/>
+        <div className='hidden md:block w-[20%]'>
+            <LeftMenu type="homepage"/>
         </div>
 
 
         {/* center part(MainSection) or Mobile part*/}
-        <div className=' w-full lg:w-[70%] xl:w-[50%]'>
+        <div className=' w-full lg:w-[60%] xl:w-[40%]'>
             <StoryPost/>
             <AddToPost/>
             <Feed/>
@@ -23,7 +23,7 @@ import React from 'react'
 
 
         {/* right  part */}
-        <div className='hidden md:block w-[40%]'>
+        <div className='hidden md:block w-[30%]'>
             <RightMenu/>
         </div>
     </div>
